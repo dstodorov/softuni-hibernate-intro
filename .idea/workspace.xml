@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01d3c480-43ac-43da-9269-11bdd5359ac7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/P13RemoveTowns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/P12EmployeesMaximumSalaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P12EmployeesMaximumSalaries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +58,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P12EmployeesMaximumSalaries">
+  <component name="RunManager" selected="Application.P13RemoveTowns">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="softuni-hibernate-intro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P09FindLatest10Projects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P09FindLatest10Projects" />
       <module name="softuni-hibernate-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,13 +87,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P13RemoveTowns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P13RemoveTowns" />
+      <module name="softuni-hibernate-intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P13RemoveTowns" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.P12EmployeesMaximumSalaries" />
         <item itemvalue="Application.P10IncreaseSalaries" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.P11FindEmployeesByFirstName" />
-        <item itemvalue="Application.P09FindLatest10Projects" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +116,7 @@
       <workItem from="1666878249573" duration="7000" />
       <workItem from="1666886697930" duration="17588000" />
       <workItem from="1667074828542" duration="2090000" />
-      <workItem from="1667138317854" duration="7520000" />
+      <workItem from="1667138317854" duration="9217000" />
     </task>
     <servers />
   </component>
