@@ -7,6 +7,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class P08GetEmployeeWithProject {
+    private static final String GET_EMPLOYEES_BY_ID = "SELECT e FROM Employee e WHERE e.id = :employee_id";
     public static void main(String[] args) {
         EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
 
@@ -15,7 +16,7 @@ public class P08GetEmployeeWithProject {
         int employeeId = Integer.parseInt(scanner.nextLine());
 
         entityManager.getTransaction().begin();
-        Employee employee = entityManager.createQuery("SELECT e FROM Employee e WHERE e.id = :employee_id", Employee.class)
+        Employee employee = entityManager.createQuery(GET_EMPLOYEES_BY_ID, Employee.class)
                 .setParameter("employee_id", employeeId)
                 .getSingleResult();
 
@@ -25,6 +26,6 @@ public class P08GetEmployeeWithProject {
                 .sorted(Comparator.comparing(Project::getName))
                 .forEach(p -> System.out.println("\t" + p.getName()));
 
-
+        entityManager.close();
     }
 }

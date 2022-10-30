@@ -7,10 +7,10 @@ import javax.persistence.Persistence;
 import java.util.Scanner;
 
 public class P03ContainsEmployee {
+    private static final String GET_EMPLOYEES_BY_FIRST_AND_LAST_NAME = "SELECT e FROM Employee e WHERE e.firstName = :first_name AND e.lastName = :last_name";
+
     public static void main(String[] args) {
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
-        EntityManager entityManager = factory.createEntityManager();
-        entityManager.getTransaction().begin();
+        EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class P03ContainsEmployee {
         String lastName = fullName[1];
 
         try {
-            entityManager.createQuery("FROM Employee WHERE firstName = :first_name AND lastName = :last_name", Employee.class)
+            entityManager.createQuery(GET_EMPLOYEES_BY_FIRST_AND_LAST_NAME, Employee.class)
                     .setParameter("first_name", firstName)
                     .setParameter("last_name", lastName)
                     .getSingleResult();
@@ -28,7 +28,6 @@ public class P03ContainsEmployee {
             System.out.println("No");
         }
 
-        entityManager.getTransaction().commit();
         entityManager.close();
 
     }

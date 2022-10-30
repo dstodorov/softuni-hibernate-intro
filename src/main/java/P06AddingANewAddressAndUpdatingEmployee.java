@@ -7,9 +7,9 @@ import javax.persistence.Persistence;
 import java.util.Scanner;
 
 public class P06AddingANewAddressAndUpdatingEmployee {
+    private static final String UPDATE_EMPLOYEES_ADDRESS_BY_LAST_NAME = "UPDATE Employee SET address = :employee_address WHERE lastName = :last_name";
     public static void main(String[] args) {
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
-        EntityManager entityManager = factory.createEntityManager();
+        EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
         entityManager.getTransaction().begin();
 
         Address address = new Address();
@@ -20,7 +20,7 @@ public class P06AddingANewAddressAndUpdatingEmployee {
         Scanner scanner = new Scanner(System.in);
         String lastName = scanner.nextLine();
 
-        int countOfUpdatedRecords = entityManager.createQuery("UPDATE Employee SET address = :employee_address WHERE lastName = :last_name")
+        int countOfUpdatedRecords = entityManager.createQuery(UPDATE_EMPLOYEES_ADDRESS_BY_LAST_NAME)
                 .setParameter("employee_address", address)
                 .setParameter("last_name", lastName)
                 .executeUpdate();

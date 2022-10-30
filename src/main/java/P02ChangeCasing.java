@@ -7,22 +7,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class P02ChangeCasing {
+    private static final String GET_TOWNS_WITH_NAME_BIGGER_THAT_5_CHARS = "SELECT t FROM Town t WHERE LENGTH(t.name) > 5";
     public static void main(String[] args) {
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
-        EntityManager entityManager = factory.createEntityManager();
+        EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
 
         entityManager.getTransaction().begin();
 
-        List<Town> from_town = entityManager.createQuery("FROM Town", Town.class).getResultList()
-                .stream()
-                .filter(t -> t.getName().length() > 5)
-                .collect(Collectors.toList());
-
-        from_town.forEach(t ->
-                t.setName(t.getName().toUpperCase())
-        );
-
-        from_town.forEach(entityManager::persist);
+        entityManager.createQuery(GET_TOWNS_WITH_NAME_BIGGER_THAT_5_CHARS, Town.class)
+                .getResultList()
+                .forEach(t -> t.setName(t.getName().toUpperCase()));
 
         entityManager.getTransaction().commit();
         entityManager.close();

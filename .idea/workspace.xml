@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01d3c480-43ac-43da-9269-11bdd5359ac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/P13RemoveTowns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P02ChangeCasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P02ChangeCasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P03ContainsEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P03ContainsEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P04EmployeesWithSalaryOver50000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P04EmployeesWithSalaryOver50000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P05EmployeesFromDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P05EmployeesFromDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P06AddingANewAddressAndUpdatingEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P06AddingANewAddressAndUpdatingEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P07AddressesWithEmployeeCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P07AddressesWithEmployeeCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P08GetEmployeeWithProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P08GetEmployeeWithProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P09FindLatest10Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P09FindLatest10Projects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P10IncreaseSalaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P10IncreaseSalaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P11FindEmployeesByFirstName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P11FindEmployeesByFirstName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P12EmployeesMaximumSalaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P12EmployeesMaximumSalaries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P13RemoveTowns">
+  <component name="RunManager" selected="Application.P02ChangeCasing">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="softuni-hibernate-intro" />
@@ -66,22 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P10IncreaseSalaries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P10IncreaseSalaries" />
+    <configuration name="P02ChangeCasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P02ChangeCasing" />
       <module name="softuni-hibernate-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P11FindEmployeesByFirstName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P11FindEmployeesByFirstName" />
+    <configuration name="P05EmployeesFromDepartment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P05EmployeesFromDepartment" />
       <module name="softuni-hibernate-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P12EmployeesMaximumSalaries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P12EmployeesMaximumSalaries" />
+    <configuration name="P07AddressesWithEmployeeCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P07AddressesWithEmployeeCount" />
       <module name="softuni-hibernate-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P02ChangeCasing" />
+        <item itemvalue="Application.P05EmployeesFromDepartment" />
+        <item itemvalue="Application.P07AddressesWithEmployeeCount" />
         <item itemvalue="Application.P13RemoveTowns" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.P12EmployeesMaximumSalaries" />
-        <item itemvalue="Application.P10IncreaseSalaries" />
-        <item itemvalue="Application.P11FindEmployeesByFirstName" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +126,7 @@
       <workItem from="1666878249573" duration="7000" />
       <workItem from="1666886697930" duration="17588000" />
       <workItem from="1667074828542" duration="2090000" />
-      <workItem from="1667138317854" duration="9217000" />
+      <workItem from="1667138317854" duration="10824000" />
     </task>
     <servers />
   </component>

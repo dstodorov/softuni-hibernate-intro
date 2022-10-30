@@ -5,15 +5,15 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 public class P07AddressesWithEmployeeCount {
+    private static final String GET_ADDRESSES_QUERY = "SELECT a FROM Address a ORDER BY a.employees.size DESC";
     public static void main(String[] args) {
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
-        EntityManager entityManager = factory.createEntityManager();
-        entityManager.getTransaction().begin();
+        EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
 
-        entityManager.createQuery("select a from Address a order by a.employees.size DESC", Address.class)
+        entityManager.createQuery(GET_ADDRESSES_QUERY, Address.class)
                 .setMaxResults(10)
                 .getResultList()
                 .forEach(System.out::println);
+
         entityManager.close();
     }
 }
