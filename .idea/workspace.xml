@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d3c480-43ac-43da-9269-11bdd5359ac7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IncreaseSalaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IncreaseSalaries.java" afterDir="false" />
-    </list>
+    <list default="true" id="01d3c480-43ac-43da-9269-11bdd5359ac7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,35 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncreaseSalaries">
-    <configuration name="FindEmployeesByFirstName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindEmployeesByFirstName" />
-      <module name="softuni-hibernate-intro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindLatest10Projects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindLatest10Projects" />
-      <module name="softuni-hibernate-intro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetEmployeeWithProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetEmployeeWithProject" />
-      <module name="softuni-hibernate-intro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncreaseSalaries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IncreaseSalaries" />
-      <module name="softuni-hibernate-intro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P10IncreaseSalaries">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="softuni-hibernate-intro" />
@@ -94,13 +63,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P08GetEmployeeWithProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P08GetEmployeeWithProject" />
+      <module name="softuni-hibernate-intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P09FindLatest10Projects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P09FindLatest10Projects" />
+      <module name="softuni-hibernate-intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P10IncreaseSalaries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P10IncreaseSalaries" />
+      <module name="softuni-hibernate-intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P11FindEmployeesByFirstName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P11FindEmployeesByFirstName" />
+      <module name="softuni-hibernate-intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IncreaseSalaries" />
+        <item itemvalue="Application.P10IncreaseSalaries" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindEmployeesByFirstName" />
-        <item itemvalue="Application.FindLatest10Projects" />
-        <item itemvalue="Application.GetEmployeeWithProject" />
+        <item itemvalue="Application.P11FindEmployeesByFirstName" />
+        <item itemvalue="Application.P09FindLatest10Projects" />
+        <item itemvalue="Application.P08GetEmployeeWithProject" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +113,7 @@
       <workItem from="1666878249573" duration="7000" />
       <workItem from="1666886697930" duration="17588000" />
       <workItem from="1667074828542" duration="2090000" />
-      <workItem from="1667138317854" duration="5212000" />
+      <workItem from="1667138317854" duration="5585000" />
     </task>
     <servers />
   </component>

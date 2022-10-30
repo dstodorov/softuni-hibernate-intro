@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import java.util.Scanner;
 
-public class FindEmployeesByFirstName {
+public class P11FindEmployeesByFirstName {
     public static void main(String[] args) {
         EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
         entityManager.getTransaction().begin();

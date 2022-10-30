@@ -3,7 +3,7 @@ import entities.Project;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
-public class FindLatest10Projects {
+public class P09FindLatest10Projects {
     public static void main(String[] args) {
         EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
 

@@ -3,9 +3,8 @@ import entities.Employee;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.util.List;
 
-public class EmployeesFromDepartment {
+public class P05EmployeesFromDepartment {
 
     private static final String DEPARTMENT_NAME = "Research and Development";
     private static final String EMPLOYEE_INFO_FORMAT = "%s %s from %s - $%.2f%n";

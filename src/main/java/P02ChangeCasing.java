@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ChangeCasing {
+public class P02ChangeCasing {
     public static void main(String[] args) {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
         EntityManager entityManager = factory.createEntityManager();

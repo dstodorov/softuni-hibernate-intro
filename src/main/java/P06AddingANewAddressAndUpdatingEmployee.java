@@ -6,7 +6,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.Scanner;
 
-public class AddingANewAddressAndUpdatingEmployee {
+public class P06AddingANewAddressAndUpdatingEmployee {
     public static void main(String[] args) {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
         EntityManager entityManager = factory.createEntityManager();

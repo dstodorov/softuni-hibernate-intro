@@ -2,12 +2,11 @@ import entities.Employee;
 import entities.Project;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class GetEmployeeWithProject {
+public class P08GetEmployeeWithProject {
     public static void main(String[] args) {
         EntityManager entityManager = Persistence.createEntityManagerFactory("soft_uni").createEntityManager();
 

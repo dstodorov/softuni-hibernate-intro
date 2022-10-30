@@ -6,7 +6,7 @@ import javax.persistence.NoResultException;
 import javax.persistence.Persistence;
 import java.util.Scanner;
 
-public class ContainsEmployee {
+public class P03ContainsEmployee {
     public static void main(String[] args) {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
         EntityManager entityManager = factory.createEntityManager();

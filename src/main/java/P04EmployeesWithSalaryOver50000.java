@@ -5,7 +5,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.math.BigDecimal;
 
-public class EmployeesWithSalaryOver50000 {
+public class P04EmployeesWithSalaryOver50000 {
 
     private static final BigDecimal MIN_SALARY = new BigDecimal(50000);
 

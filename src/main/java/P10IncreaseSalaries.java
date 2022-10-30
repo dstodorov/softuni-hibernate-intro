@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import java.math.BigDecimal;
 
-public class IncreaseSalaries {
+public class P10IncreaseSalaries {
     private static final String ENGINEERING_DEPT = "Engineering";
     private static final String TOOL_DESIGN_DEPT = "Tool Design";
     private static final String MARKETING_DEPT = "Marketing";
