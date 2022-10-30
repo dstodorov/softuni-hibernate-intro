@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3c480-43ac-43da-9269-11bdd5359ac7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmployeesWithSalaryOver50000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmployeesWithSalaryOver50000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetEmployeeWithProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GetEmployeeWithProject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Dev/Softuni/Resources/04.JavaDB/02.SpringData/softuni-hibernate-intro/softuni-hubernate-intro/src/main/java",
+    "last_opened_file_path": "D:/Dev/Softuni/Resources/04.JavaDB/02.SpringData/softuni-hibernate-intro",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -55,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddressesWithEmployeeCount">
+  <component name="RunManager" selected="Application.GetEmployeeWithProject">
     <configuration name="AddingANewAddressAndUpdatingEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddingANewAddressAndUpdatingEmployee" />
       <module name="softuni-hibernate-intro" />
@@ -70,15 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeesFromDepartment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmployeesFromDepartment" />
+    <configuration name="EmployeesWithSalaryOver50000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeesWithSalaryOver50000" />
       <module name="softuni-hibernate-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeesWithSalaryOver50000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmployeesWithSalaryOver50000" />
+    <configuration name="GetEmployeeWithProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetEmployeeWithProject" />
       <module name="softuni-hibernate-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetEmployeeWithProject" />
+        <item itemvalue="Application.EmployeesWithSalaryOver50000" />
         <item itemvalue="Application.AddressesWithEmployeeCount" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AddingANewAddressAndUpdatingEmployee" />
-        <item itemvalue="Application.EmployeesFromDepartment" />
-        <item itemvalue="Application.EmployeesWithSalaryOver50000" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +121,7 @@
       <workItem from="1666878249573" duration="7000" />
       <workItem from="1666886697930" duration="17588000" />
       <workItem from="1667074828542" duration="2090000" />
+      <workItem from="1667138317854" duration="820000" />
     </task>
     <servers />
   </component>

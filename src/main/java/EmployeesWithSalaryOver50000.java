@@ -3,10 +3,11 @@ import entities.Employee;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import java.math.BigDecimal;
 
 public class EmployeesWithSalaryOver50000 {
 
-    private static final double MIN_SALARY = 50000;
+    private static final BigDecimal MIN_SALARY = new BigDecimal(50000);
 
     public static void main(String[] args) {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("soft_uni");
